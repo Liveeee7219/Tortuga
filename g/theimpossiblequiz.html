@@ -69,7 +69,7 @@ loadScripts([gamPath], function (error){
     frame.style.height = '100%';
     frame.style.margin = '0';
     frame.style.padding = '0';
-    frame.src = "file:///home/chronos/u-c4f743124901774f3903dcfdaf5d052cb3beaeb9/MyFiles/HTML%20websites/Test/g/Ruffle/player.html?channel="+channel;
+    frame.src = "g\Ruffle\player.html?channel="+channel;
     document.body.appendChild(frame);
     frame.onload = function() {
      bc.postMessage({type: "swf", data: window.data});
@@ -89,7 +89,7 @@ bc.onmessage = (event) => {
   
     function checkKeyPressed(evt) {
         if (evt.keyCode == "27") {
-          window.location.replace("google.com");
+          window.location.replace("https://www.google.com");
         }
     }
     </script>

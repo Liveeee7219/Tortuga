@@ -1,0 +1,21 @@
+body {background-color:darkslategrey;}
+
+h1 {color: rgb(147, 147, 147);}
+h1 {font-family: "Fredoka, sans-serif";}
+h1 {text-align: center;}
+
+p {font-family: Comfortaa;}
+p {color: rgb(147, 147, 147);}
+p {font-size: medium;}
+p {text-align:center;}
+ul {color: darkslategray;}
+ul {font-family: Fredoka;}
+
+fredoka-h1 { 
+    font-family: "Fredoka";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    }
